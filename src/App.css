@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#table_head{
+  background-color: #feb300
+}
+
+tr:nth-child(even){
+  background-color: #ffb766;
+  /* color: #fff5d7; */
+  color: #c80e13;
+}
+
+tr:nth-child(odd){
+  background-color: #fceed1;
+  /* color: #c80e13; */
+}
+
+table{
+  position: relative;
 }
